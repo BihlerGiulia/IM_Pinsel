@@ -1,7 +1,44 @@
 
-/* HEADER */
+:root {
+    --font-h1: 48px;
+    --font-h2: 32px;
+    --font-h3: 22px;
+    --font-h4: 17px;
+    --font-h5: 14px;
+    --font-h6: 12px;
+}
+
+body {
+    margin: 0;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #754019;
+    padding: 0px 30px;
+    min-height: 85px;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: var(--font-h2);
+    margin: 0;
+    color: #F5F0E7;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.logo a{
+    color: #F5F0E7;
+    text-decoration: none;
+}
+
+.navigation a {
+    color: #F5F0E7;
+    font-size: var(--font-h5);
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: sans-serif;
 }
