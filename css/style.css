@@ -128,3 +128,16 @@ main {
     background-color: #F5F0E7;
     padding: 30px;
 }
+
+.produkt-karte h3 {
+    color: #30241F;
+}
+
+.produkt-karte p {
+    color: #754019;
+    font-size: var(--font-h5);
+}
+
+.produkt-karte {
+    font-family: sans-serif;
+}
