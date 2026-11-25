@@ -147,9 +147,42 @@ main {
 @media (max-width: 600px) {
 
     .produkt-karten {
+
         flex-direction: column;
         gap: 20px;
         padding: 20px;
+    }
+
+    .header {
+        padding: 0 15px;
+        min-height: 70px;
+    }
+
+    .logo {
+        font-size: var(--font-h3);
+    }
+
+    .navigation a {
+        font-size: var(--font-h6);
+        margin-left: 10px;
+    }
+
+
+    .hero {
+        padding: 30px 20px;
+    }
+
+    .hero-title {
+        font-size: var(--font-h2);
+        margin-bottom: 20px;
+    }
+
+    .hero-description {
+        font-size: var(--font-h4);
+    }
+
+    .hero-kicker {
+        font-size: var(--font-h6);
     }
 
 }
