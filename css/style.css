@@ -141,3 +141,15 @@ main {
 .produkt-karte {
     font-family: sans-serif;
 }
+
+
+
+@media (max-width: 600px) {
+
+    .produkt-karten {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+}
